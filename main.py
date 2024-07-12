@@ -24,8 +24,9 @@ def q2():
 
 
 def q3():
-    
-    pass
+    servidores = int(input(""))
+    banco = int(input(""))
+    armazenamn
 
 def q4():
     pass
