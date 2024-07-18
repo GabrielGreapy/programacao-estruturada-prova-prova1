@@ -24,9 +24,19 @@ def q2():
 
 
 def q3():
-    servidores = int(input(""))
-    banco = int(input(""))
-    armazenamn
-
+    servidores = int(input("Número de servidores: "))
+    banco = int(input("Unidades de capacidade do banco de dados: "))
+    armazenamento = int(input("Armazenamento de dados (em GB): "))
+    transferencia = int(input("Transferência de dados de entrada e saída (em GB): "))
+    Pservidores = servidores * 500
+    Pbanco = banco * 100
+    Parmazenamento = armazenamento * 0.010
+    Ptransf = transferencia * 0.05
+    total = Pservidores + Pbanco + Parmazenamento + Ptransf
+    if total > 10000:
+        print("O custo total mensal está acima do limite.")
+    else:
+        print(f"O custo total mensal estimado para a infraestrutura é de R$ {total}.")
 def q4():
-    pass
+    n = int(input(''))
+    
